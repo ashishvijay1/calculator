@@ -27,6 +27,7 @@ const LoanCalculator = () => {
     }
   };
 
+  
   const formatIndianCurrency = (amount) => {
     return new Intl.NumberFormat('en-IN', {
       style: 'currency',
